@@ -33,3 +33,10 @@ Git branch
 git push origin +feature/clean-temp-folder-in-windows
 git commit --amend -m "[DDA-1470] added variable for temp clean task and updated shaw windows version"
 git push origin +feature/clean-temp-folder-in-windows
+
+Git commit message (how to change after push)
+https://www.educative.io/edpresso/how-to-change-a-git-commit-message-after-a-push
+git commit --amend -m "[EM-6352] Adding yamlfile for trinadh and remove whitespaces in all yaml files"
+git push origin +feature/adding-trinadh-for-personal-jenkins
+
+
