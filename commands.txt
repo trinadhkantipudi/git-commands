@@ -40,3 +40,20 @@ git commit --amend -m "[EM-6352] Adding yamlfile for trinadh and remove whitespa
 git push origin +feature/adding-trinadh-for-personal-jenkins
 
 
+#Git remote  
+
+cd puppetlabs-scheduled_task
+ 1067  ls
+ 1068  git remote add github https://github.com/puppetlabs/puppetlabs-scheduled_task.git
+ 1069  ls
+ 1070  git remote -v
+ 1071  git branch
+ 1072  git pull github main
+ 1073  git pull --tags
+ 1074  git pull github --tags
+ 1075  git branch
+ 1076  git fetch github --all
+ 1077  ls
+ 1078  git status
+ 1079  git push origin master
+ 1080  git push --tags
